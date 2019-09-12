@@ -5,14 +5,7 @@ $(document).ready(function() {
         console.log("pcPick: " + pcPick);
         $(".randNum").html(pcPick);
 
-    //var randomArray = [];
-        //console.log("randomArray: " + randomArray);
-
-    //for (i = 0 ; i < 4 ; i++) {
-        //var gNumber = Math.floor(Math.random() * 12) + 1;
-        // console.log("gNumber: " + gNumber);
-        //randomArray.push(gNumber);
-    //}
+    
 
     // gem random number
 
@@ -74,6 +67,7 @@ $(document).ready(function() {
             $(".sd").html(nScore);
 
             if(nScore === pcPick) {
+                alert("You Win!!!");
                 wins++ ;
                 $(".wins").html("wins: " + wins);
                     console.log("wins: " + wins);
@@ -82,6 +76,7 @@ $(document).ready(function() {
             }
 
             else if(nScore > pcPick) {
+                alert("You lose try again!!!");
                 losses++ ;
                 $(".losses").html("losses: " + losses);
                     console.log("losses: " + losses);
@@ -99,6 +94,7 @@ $(document).ready(function() {
         $(".sd").html(nScore);
 
         if(nScore === pcPick) {
+            alert("You Win!!!");
             wins++ ;
             $(".wins").html("wins: " + wins);
                 console.log("wins: " + wins);
@@ -107,6 +103,7 @@ $(document).ready(function() {
         }
 
         else if(nScore > pcPick) {
+            alert("You lose try again!!!");
             losses++ ;
             $(".losses").html("losses: " + losses);
                 console.log("losses: " + losses);
