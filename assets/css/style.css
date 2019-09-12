@@ -1,0 +1,61 @@
+.directions {
+	border: 2px solid black;
+	padding: 2%;
+	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+	color: green;
+}
+
+.randNum {
+	border: 2px solid black;
+	padding: 3%;
+	background-color: white; 
+	opacity: 0.6; 
+	color: green;
+	font-size: 200%; 
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+}
+
+.total { 
+	border: 2px solid black;
+	padding: 2%; 
+	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+ }
+
+ .ts {
+ 	border: 2px solid black; 
+ 	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+	color: brown;
+
+ }
+
+ .sd {
+ 	border: 2px solid black;
+	padding: 3%; 
+	background-color: white; 
+	opacity: 0.6; 
+	color: green;
+	font-size: 200%;
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+ }
+
+ .wallpaper { 
+	background-image: url("../images/wallpaper.jpg");
+    background-size: 100%;
+    
+ }
+
+ .header { 
+    color: chartreuse;
+	font-family: 'Lobster', cursive, 'sans-serif'; 
+  }
+
+  .wins, .losses { 
+	padding: 2%;
+	color: brown;
+  }
